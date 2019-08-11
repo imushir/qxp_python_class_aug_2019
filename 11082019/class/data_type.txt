@@ -1,0 +1,30 @@
+integer
+float
+string
+tuple
+list
+dictionary
+set
+
+variable_name = (1, 2, "Hello", "Test") # Tuple Immutable object
+variable_name = ["A", "B", "C", "D", 1, 100, 200] # List Mutuble object
+#Accesing the element
+Indexing or slicing operator
+
+first_ele = variable_name[0]
+all_ele = variable_name[:]
+val_ele = variable_name[0: 3]
+
+# Dictionary
+var_month_map = {1: "Jan", 2: "Feb", 3: "Mar",
+                 4: "Apr", 5: "May"}
+print("First month is ", var_month_map[1])
+print("Keys are : ", var_month_map.keys())
+print("Values are : ", var_month_map.values())
+var_month_map[6] = "Jun"
+
+#set
+
+var_val = {12, 14, "Demo"} # set((elements))
+var_val.add("test")
+var_val.update([10, 50, "Hi"])
