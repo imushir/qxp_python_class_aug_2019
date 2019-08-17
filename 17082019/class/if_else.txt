@@ -1,0 +1,90 @@
+=========== conditional statement ===================
+
+if(condition):
+   statement 1
+      !
+      !
+      !
+      !
+    statement n
+else:
+    statement 1
+       !
+       !
+       !
+       !
+    statemnt n
+
+=================================================
+======== Ladder if elif else ================
+
+if(condition1):
+    statement 1
+        !
+        !
+        !
+        !
+    statement n
+elif(condition2):
+    statement 1
+        !
+        !
+        !
+        !
+    statemnt n
+elif(condition3)
+    statement 1
+        !
+        !
+        !
+        !
+    statement n
+elif(condition n):
+    statement 1
+        !
+        !
+        !
+        !
+    statement n
+else:
+    statement 1
+        !
+        !
+        !
+    statement n
+
+==== Nested If Else condition ====
+
+if(condition):
+    statement 1
+       !
+       !
+       !
+       !
+    statement n
+    if(condition):
+        statement 1
+           !
+           !
+           !
+        statement n
+    else:
+        statement 1
+            !
+            !
+            !
+        statement n
+else:
+    if(condition):
+        statement1
+           !
+           !
+           !
+        statement n
+    else:
+        statement1
+           !
+           !
+           !
+           !
+        statement n

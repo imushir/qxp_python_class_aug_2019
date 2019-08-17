@@ -1,7 +1,8 @@
 days = ("Monday", "Tuesday", "Wednesday", "Thursday",
-        "Friday", "Saturday", "Sunday")
+        "Friday", "Saturday", "Sunday", 12, 13)
 print("Type of days is ", type(days))
 print("First day is", days[0])
+print("First three days are :", days[:3])
 print("Even days are ", days[::2])
 print("Number of days are ", len(days))
 
@@ -19,9 +20,10 @@ print("Number of elements are ", len(num_word))
 
 
 var_month_map = {1: "Jan", 2: "Feb", 3: "Mar",
-                 4: "Apr", 5: "May"}
+                 4: "Apr", 5: "May",
+                 "Platform1": ["Koyna express", "Delhi Express"]}
 print("First month is ", var_month_map[1])
-print("Month value is ", var_month_map.get(19, "Non valid Month"))
+print("Month value is ", var_month_map.get(5, "Non valid Month"))
 print("Keys are : ", var_month_map.keys())
 print("Values are : ", var_month_map.values())
 var_month_map[6] = "Jun"

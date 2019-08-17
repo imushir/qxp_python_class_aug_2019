@@ -1,0 +1,66 @@
+--- Arthemetic operator
++ - * / 
+// = floor division (gives the nearest value of decimal result)
+ % = modules (Remainder)
+ ** = raise to power
+
+ --- Assignment operator  --
+ =  --> a = 5
+ += --> a += 5 equivalent to a = a + 5
+ -= ------------------
+ *= ------------------
+ /= ------------------
+ %= ------------------
+
+ ---- Boolean operator
+ and, or, not
+
+and---
+   true * true = true
+   true * false = false
+   false * false = false
+   false * true = false
+
+or--
+   true + true = true
+   true + false = true
+   flase + false = false
+   false + true = true
+
+not--
+   not true = false
+   not false = true
+
+-- Bitwise operator
+
+& | ~ >> <<
+
+a = 10
+b = 5
+
+0 0 0 0 1 0 1 0 <-- Binary representation of 10
+0 0 0 0 0 1 0 1 <-- Binary representation of 5
+----------------- 
+0 0 0 0 0 0 0 0 <--- a & b
+0 0 0 0 1 1 1 1 <--- a | b
+1 1 1 1 0 1 0 1 <--- ~ a
+1 1 1 1 1 0 1 0 <---- ~ b
+
+
+0 0 0 0 1 0 1 0  <--- 10
+0 0 1 0 1 0 0 0  <---- a << 2 (ans = 42)
+0 0 0 0 0 0 1 0  <---- a >> 2 (ans = 2)
+
+-- Associative operator
+
+use to check element present in iterable elements (string, tuple, list, dictionary)
+
+--> in 
+--> not in
+
+a = [1, 2, 3, 4]
+4 in a --> True
+5 in a --> False
+
+4 not in a --> False
+5 not in a --> True
