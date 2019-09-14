@@ -7,15 +7,15 @@ comment
 
 """
 
-"""
+
 first_num = int(input("Enter first number "))
 secnd_num = int(input("Enter second number "))
 add_result = first_num + secnd_num
 sub_result = first_num - secnd_num
 mul = first_num * secnd_num
 div = first_num / secnd_num
-
 remainder = first_num % secnd_num
+
 print("---------Calculator--------")
 print("Addition is ", add_result)
 print("Substraction is", sub_result)
@@ -40,5 +40,5 @@ print("Number of character are ", len(msg))
 firsr_char = msg[0: msg.index("r") + 1]
 print("Slicing values is ", firsr_char)
 print("Character at even position are ", msg[::2])
-
+"""
 

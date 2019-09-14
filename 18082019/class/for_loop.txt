@@ -1,0 +1,34 @@
+for each_var in iterable elements:
+    statement1
+       !
+       !
+       !
+       !
+       !
+    statement n
+    if each_var == any_conditioned_value:
+        break
+         or
+        continue
+         or
+        pass
+
+
+condition_value = ""
+while(condition_value):
+    statement 1
+        !
+        !
+        !
+        !
+    statement n
+    condition_value assignment
+    if(condition_value):
+        break
+         or
+        continue
+         or
+        pass
+        
+
+

@@ -6,6 +6,10 @@ list
 dictionary
 set
 
+num_first = 1 <-- integer
+num_send = 2.12 <-- Float
+name = "Hello"  <-- String
+
 variable_name = (1, 2, "Hello", "Test") # Tuple Immutable object
 variable_name = ["A", "B", "C", "D", 1, 100, 200] # List Mutuble object
 #Accesing the element
@@ -13,7 +17,7 @@ Indexing or slicing operator
 
 first_ele = variable_name[0]
 all_ele = variable_name[:]
-val_ele = variable_name[0: 3]
+val_ele = variable_name[0: 3]  -> will get values of indexed 0, 1 and 2
 
 # Dictionary
 var_month_map = {1: "Jan", 2: "Feb", 3: "Mar",

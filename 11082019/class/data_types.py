@@ -1,3 +1,4 @@
+"""
 days = ("Monday", "Tuesday", "Wednesday", "Thursday",
         "Friday", "Saturday", "Sunday", 12, 13)
 print("Type of days is ", type(days))
@@ -30,9 +31,17 @@ var_month_map[6] = "Jun"
 var_month_map.update({7: "July", 8: "Aug", 9: "Sep",
                       10: "Oct", 11: "Nov", 12: "Dec"})
 print("Updated months are : ", var_month_map)
+"""
 
-
-var_val = {12, 14, "Demo"} # set((elements))
-var_val.add("test")
-var_val.update([10, 12, 50, "Hi"])
-print("Set are " , var_val)
+set_one = {12, 14, "Demo"} # set((elements))
+set_one.add(20)
+set_one.update([10, 12, 50, "Hi"])
+print("Set one is ", set_one)
+print("Set dir is ", dir(set_one))
+print("Length of set one is ", len(set_one))
+set_two = set((1, 2, 3, "Hi", "Hello"))
+print("Set two  is  ", set_two)
+print("Length of set two is ", len(set_two))
+combo_set = set_one.union(set_two)
+print("Element of both sets are ", combo_set)
+print("Length of combined sets is ", len(combo_set) )
