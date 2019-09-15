@@ -1,0 +1,2 @@
+Hello Python
+Temperature is 50c

@@ -1,0 +1,2 @@
+1.Take state name and state's capital city from user input and store
+it into csv file as | seperated values.
