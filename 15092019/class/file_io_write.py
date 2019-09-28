@@ -18,7 +18,7 @@ if __name__ == "__main__":
                                                file_exctn.strerror))
     else:
         temprature_data = "Mumbai 70c\nPune60c\n"
-        temprature_data_list = ["Delhi 50c", "Kolcutta 40c", "Karnatka 30c", "Chennai 60c"]
+        temprature_data_list = ["Delhi 50c", "Kolcutta 40c", "Karnatka 50c", "Chennai 60c"]
         file_obj.write(temprature_data) # using string data
         file_obj.writelines("\n".join(temprature_data_list)) # using list of data
         file_obj.close()

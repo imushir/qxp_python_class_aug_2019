@@ -1,4 +1,9 @@
 Mumbai 70c
+Pune60c
+Delhi 50c
+Kolcutta 40c
+Karnatka 50c
+Chennai 60cMumbai 70c
 Pune 60c
 Delhi 50c
 Kolcutta 40c
