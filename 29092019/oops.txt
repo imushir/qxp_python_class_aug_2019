@@ -1,0 +1,130 @@
+class
+object
+polymorphism- overloading, overriding
+abstraction
+encapsulation
+inheritance
+
+def test(par1, par2)
+
+def test(par1, par2, par3)
+
+class base:
+    def __init__(self):
+        self.msg = "hi"
+    
+    def print_msg(self)
+         print(self.msg)
+
+class child(base):
+    def print_msg(self):
+        print("Hello")
+
+child_obj = child()
+child_obj.print()
+
+
+# Types of inheritance
+single 
+multilevel
+multiple
+
+
+# Single inheritance
+
+class ParentClass:
+    def __init__(self):
+        variable initialization
+
+    def methodparent1(self, param_list):
+         statement1
+              |
+              |
+              |
+        statementN
+    
+    def methodparentN(self, param_list):
+        statement1
+           |
+           |
+           |
+        statement1N
+
+class ChildClass(ParentClass):
+    def __init__(self):
+        super().__init__()
+        variable initialization
+    
+    def method_child1(self, param_list):
+        statement1
+           |
+           |
+           |
+        statement2
+    
+    def method_childN(self, param_list):
+        statement1
+           |
+           |
+           |
+        statementN
+
+child_obj = ChildClass()
+child_obj.methodparent1()
+child_obj.method_child1()
+
+# multilevel inheritance
+
+class A:
+   def __init__(self):
+       pass
+   def method_a(self):
+       pass
+
+class B(A):
+    def __init__(self):
+        super().__init__()
+        pass
+    def method_b(self):
+        pass
+class C(B)
+    def __init__(self):
+        super.__init__()
+        pass
+    def method_c(self):
+        pass
+
+c_class_obj = C()
+c_class_obj.method_a()
+c_class_obj.method_c()
+
+
+# multiple inheritance
+
+
+class A:
+    def __init__(self):
+        pass
+    def a(self):
+       pass
+class B:
+    def __init__(self):
+    super().__init__()
+        pass
+    def b(self):
+        pass
+    def print_msg(self):
+        pass
+class C(A, B):
+    def __init__(self):
+        super().__init__()
+    def print_greet(self):
+        pass
+
+
+c_obj = C()
+c_obj.print_msg()
+C.__mro__    # to check method calling sequence while object initialization
+C.mro()
+
+
